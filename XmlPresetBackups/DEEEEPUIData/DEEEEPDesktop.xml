@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image2" x="0.0" y="0.0" width="852.0"
+             height="480.0" fileName="{PROJECT_FOLDER}DEEEEP_Bg_BonneQualit&#233;.jpg">
+    <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" parentComponent="Image2"
+               width="852.0" height="480.0" fileName="{PROJECT_FOLDER}Glass.png"
+               alpha="0.7300000190734863"/>
+  </Component>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="80.0" y="7.0"
+             width="567.0" height="467.0" bgColour="0" itemColour="4293662919"
+             ContentType="AudioAnalyser" itemColour2="0" textColour="0" Data="{&#10;  &quot;ProcessorId&quot;: &quot;Analyser1&quot;,&#10;  &quot;Index&quot;: 0,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"/>
+  <Component type="ScriptSlider" id="SWOOPKNOB" x="657.0" y="135.0" filmstripImage="{PROJECT_FOLDER}EhOe.png"
+             numStrips="128.0" width="182.0" height="182.0" scaleFactor="0.699999988079071"
+             processorId="HardcodedMasterFX1" parameterId="DryWet" isMetaParameter="1"
+             isPluginParameter="1" showTextBox="0" text="SWOOP"/>
+  <Component type="ScriptLabel" id="ScriptLabel1" x="693.0" y="282.0" width="107.0"
+             height="42.0" editable="0" text="S W O O P" itemColour2="16064976"
+             textColour="4294261448" fontName="Carlito" fontStyle="Bold" fontSize="19.0"/>
+  <Component type="ScriptPanel" id="pnlZoom" x="842.0" y="470.0" width="10.0"
+             height="10.0" allowCallbacks="Clicks, Hover &amp; Dragging" bgColour="268435455"
+             textColour="3439329279" itemColour="822083584" itemColour2="989855744"/>
+</ContentProperties>
